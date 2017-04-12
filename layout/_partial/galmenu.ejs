@@ -1,0 +1,26 @@
+<div class="GalMenu GalDropDown">
+      <div class="circle" id="gal">
+        <div class="ring">
+          <a href="#" title="" class="menuItem">首页</a>
+          <a href="#" title="" class="menuItem">博客</a>
+          <a href="#" title="" class="menuItem">项目</a>
+          <a href="#" title="" class="menuItem">综合</a>
+          <a href="#" title="" class="menuItem">杂项</a>
+          <a href="#" title="" class="menuItem">留言</a></div>
+        <audio id="audio" src="/galmenu/niconiconi.mp3"></audio>
+      </div>
+</div>
+<div id="overlay" style="opacity: 1; cursor: pointer;"></div>
+  <script type="text/javascript">var items = document.querySelectorAll('.menuItem');
+    for (var i = 0,
+    l = items.length; i < l; i++) {
+      items[i].style.left = (50 - 35 * Math.cos( - 0.5 * Math.PI - 2 * (1 / l) * i * Math.PI)).toFixed(4) + "%";
+      items[i].style.top = (50 + 35 * Math.sin( - 0.5 * Math.PI - 2 * (1 / l) * i * Math.PI)).toFixed(4) + "%"
+    }</script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('body').GalMenu({
+      'menu': 'GalDropDown'
+    })
+  });
+</script>
