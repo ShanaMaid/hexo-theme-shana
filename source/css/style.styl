@@ -26,7 +26,6 @@ html, body, #container
   height: 100%
 
 body
-  background: color-background
   font: font-size font-sans
   -webkit-text-size-adjust: 100%
 
@@ -35,6 +34,12 @@ body
   max-width: (column-width + gutter-width) * columns + gutter-width
   margin: 0 auto
   padding: 0 gutter-width
+  positon: relative
+  z-index: 1
+
+#main, #sidebar
+  positon: relative
+  z-index: 10
 
 .inner
   column(columns)
@@ -62,7 +67,7 @@ body
   left: 0
   transition: 0.2s ease-out
   z-index: 1
-  background: color-background
+  
   .mobile-nav-on &
     left: mobile-nav-width
 

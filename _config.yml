@@ -38,3 +38,17 @@ fb_app_id:
 
 # GalMenu
 galmenu: true
+mp3play: true
+gaymenu_item:
+- name: 首页
+  url : /
+- name: 关于
+  url : /about
+- name: 投喂
+  url : /sponsor
+- name: 归档
+  url : /archives
+- name: 简历
+  url : www.baidu.com
+- name: q
+  url : www.baidu.com

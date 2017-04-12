@@ -1,14 +1,14 @@
 <div class="GalMenu GalDropDown">
       <div class="circle" id="gal">
         <div class="ring">
-          <a href="#" title="" class="menuItem">首页</a>
-          <a href="#" title="" class="menuItem">博客</a>
-          <a href="#" title="" class="menuItem">项目</a>
-          <a href="#" title="" class="menuItem">综合</a>
-          <a href="#" title="" class="menuItem">杂项</a>
-          <a href="#" title="" class="menuItem">留言</a></div>
-        <audio id="audio" src="/galmenu/niconiconi.mp3"></audio>
-      </div>
+          <% for (let item of theme.gaymenu_item){ %>
+            <a href="<%= url_for(item.url) %>" title="" class="menuItem"><%= item.name %></a>
+          <% } %>
+        </div>
+        <% if (theme.mp3play){ %>
+          <audio id="audio" src="/galmenu/wulusai.mp3"></audio>
+        <% } %>
+      </div> 
 </div>
 <div id="overlay" style="opacity: 1; cursor: pointer;"></div>
   <script type="text/javascript">var items = document.querySelectorAll('.menuItem');
