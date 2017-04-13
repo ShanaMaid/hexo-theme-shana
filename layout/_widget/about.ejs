@@ -1,0 +1,21 @@
+<div class="widget-wrap">
+  <h3 class="widget-title"></h3>
+  <div class="widget">
+    <img class="avatar" src="<%= theme.avatar%>">
+    <h2 class="author"><%= config.author %></h2>
+    
+    <div class="count-box">
+      <div><strong><%= site.posts.length %></strong><br>文章</div>
+      <div><strong><%= site.categories.length %></strong><br>分类</div>
+      <div><strong><%= site.tags.length %></strong><br>标签</div>
+    </div>
+
+    <div class="social-link">
+      <% for (let item in theme.social){ %>
+        <a class="hvr-bounce-in" href="<%= theme.social[item] %>" target="_blank" title="<%= item %>">
+          <%= item %>
+        </a>
+      <% } %>
+    </div>
+  </div>
+</div>

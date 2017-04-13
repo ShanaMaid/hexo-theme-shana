@@ -2,6 +2,8 @@
 @import "_variables"
 @import "_util/mixin"
 @import "_util/grid"
+@import "plugin/hover"
+@import "plugin/animate"
 
 global-reset()
 
@@ -28,10 +30,12 @@ html, body, #container
 body
   font: font-size font-sans
   -webkit-text-size-adjust: 100%
+  cursor: url('images/icon.png'), default 
+
 
 .outer
   clearfix()
-  max-width: (column-width + gutter-width) * columns + gutter-width
+  max-width: 964px
   margin: 0 auto
   padding: 0 gutter-width
   positon: relative
@@ -89,6 +93,7 @@ if sidebar is left
 @import "_partial/footer"
 @import "_partial/highlight"
 @import "_partial/mobile"
+
 
 if sidebar
   @import "_partial/sidebar"
