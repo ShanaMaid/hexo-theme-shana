@@ -5,15 +5,15 @@
     <h2 class="author"><%= config.author %></h2>
     
     <div class="count-box">
-      <div><strong><%= site.posts.length %></strong><br>文章</div>
-      <div><strong><%= site.categories.length %></strong><br>分类</div>
-      <div><strong><%= site.tags.length %></strong><br>标签</div>
+      <a href="/archives"><div><strong><%= site.posts.length %></strong><br>文章</div></a>
+      <a href="/categories"><div><strong><%= site.categories.length %></strong><br>分类</div></a>
+      <a href="/tags"><div><strong><%= site.tags.length %></strong><br>标签</div></a>
     </div>
 
     <div class="social-link">
-      <% for (let item in theme.social){ %>
-        <a class="hvr-bounce-in" href="<%= theme.social[item] %>" target="_blank" title="<%= item %>">
-          <%= item %>
+      <% for (let item of theme.social){ %>
+        <a class="hvr-bounce-in" href="<%= item.url %>" target="_blank" title="<%= item.name %>">
+          <%= item.name %>
         </a>
       <% } %>
     </div>

@@ -1,0 +1,11 @@
+<article  class="animated rubberBand article article-type-" >
+  <div class="layout-title">
+        <span><%= page.title %></span>
+  </div>
+  <div class="article-inner">
+    <% if(site.tags.length) { %>
+      <%- tagcloud({min_font: 14, max_font: 28}) %>
+    <% } %>
+  </div>
+</article>
+

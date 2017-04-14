@@ -15,15 +15,19 @@
 <% } %>
 
 <script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="//apps.bdimg.com/libs/wow/0.1.6/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>   
 
 <% if (theme.fancybox){ %>
-  <%- css('fancybox/jquery.fancybox') %>
-  <%- js('fancybox/jquery.fancybox.pack') %>
+  <%- css('plugin/fancybox/jquery.fancybox') %>
+  <%- js('plugin/fancybox/jquery.fancybox.pack') %>
 <% } %>
 
 <% if (theme.galmenu){ %>
-  <%- css('galmenu/GalMenu') %>
-  <%- js('galmenu/GalMenu') %>
+  <%- css('plugin/galmenu/GalMenu') %>
+  <%- js('plugin/galmenu/GalMenu') %>
   <%- partial('galmenu') %>
 <% } %>
   <%- partial('bganimation') %>
