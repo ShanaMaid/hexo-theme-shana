@@ -44,7 +44,7 @@ fb_app_id:
 
 # GalMenu
 galmenu: true
-mp3play: false
+mp3play: true
 gaymenu_item:
 - name: 首页
   url : /
@@ -64,6 +64,14 @@ social:
   name: Github
 - url: xxxx
   name: 新浪微博
+
+friend:
+- url: xxxx
+  name: 搜索
+- url: xxxx
+  name: 搜索
+- url: xxxx
+  name: 搜索
 
 
 # Sidebar Avatar

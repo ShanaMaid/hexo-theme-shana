@@ -10,26 +10,42 @@
 
 .article-meta
   clearfix()
+  position: absolute
 
 .article-date
   @extend $block-caption
   float: left
+  background-color: rgb(107,105,214)
+  padding: 10px
+  box-sizing: boder-box
+  position: relative
+  top: -20px
+  left: -15px
+  width: 40px
+  height: 40px
+  border-radius: 50%
+  text-align: center
+  line-height: 1.4
+  .post-month
+    font-size: 0.8em
+  .post-day
+    font-size: 1.4em
 
 .article-category
-  float: left
   line-height: 1em
-  color: white
+  color: black
   text-shadow: 0 1px #fff
-  margin-left: 8px
-  &:before
-    content: "\2022"
+  padding: 5px 0px
 
 .article-category-link
   @extend $block-caption
-  margin: 0 12px 1em
+  color: rgba(10,10,0,0.7)
+  font-size: 0.9em
+  letter-spacing: 0px
 
 .article-header
   padding: article-padding article-padding 0
+  text-align: center
 
 .article-title
   text-decoration: none

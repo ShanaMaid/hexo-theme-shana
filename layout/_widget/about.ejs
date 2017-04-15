@@ -17,5 +17,14 @@
         </a>
       <% } %>
     </div>
+
+    <div class="friend-link">
+      <h2>友情链接</h2>
+      <% for (let item of theme.friend){ %>
+        <a class="hvr-bounce-in" href="<%= item.url %>" target="_blank" title="<%= item.name %>">
+          <%= item.name %>
+        </a>
+      <% } %>
+    </div>
   </div>
 </div>
