@@ -5,6 +5,8 @@ menu:
   Categories: /categories
   About: /about
   Tags: /tags
+  Sponsor: /sponsor
+  Cv: https://github.com/ShanaMaid/cv
 rss: /atom.xml
 
 # Content
@@ -15,13 +17,7 @@ fancybox: true
 sidebar: left
 widgets:
 - nav
-- about  
-- category
-- tag
-- tagcloud
-- archive
-- recent_posts
-
+- about
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -44,7 +40,7 @@ fb_app_id:
 
 # GalMenu
 galmenu: true
-mp3play: true
+mp3play: false
 gaymenu_item:
 - name: 首页
   url : /
@@ -55,26 +51,32 @@ gaymenu_item:
 - name: 归档
   url : /archives
 - name: 简历
-  url : www.baidu.com
-- name: q
-  url : www.baidu.com
+  url : https://github.com/ShanaMaid/cv
+- name: Github
+  url : https://github.com/shanamaid
 
 social:
 - url: http://github.com/ShanaMaid
   name: Github
-- url: xxxx
-  name: 新浪微博
 
-friend:
-- url: xxxx
-  name: 搜索
-- url: xxxx
-  name: 搜索
-- url: xxxx
-  name: 搜索
+
+link_title: 友情链接
+links:
+  Chion Tang: https://blog.chionlab.moe/
+  uestcmao: https://uestcmao.github.io/
+  Encounter: http://www.angryzhangzhe.cn/
 
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
 avatar: https://avatars0.githubusercontent.com/u/20333903?v=3&s=460
+
+
+# 网站统计
+# 站长统计
+CNZZ: 1260644675
+
+# 评论
+# 网易云跟帖APPkey
+netease: 2217020738364b0fb365e919b0738383

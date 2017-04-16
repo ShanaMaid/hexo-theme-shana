@@ -43,3 +43,17 @@
   </div>
 </section>
 <% } %>
+
+<% if (!index && post.comments && theme.netease){ %>
+<div id="comments" class="comments">
+</div>
+<script>
+  var cloudTieConfig = {
+    url: document.location.href, 
+    sourceId: "",
+    productKey: "2217020738364b0fb365e919b0738383",
+    target: "comments"
+  };
+</script>
+<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+<% } %>

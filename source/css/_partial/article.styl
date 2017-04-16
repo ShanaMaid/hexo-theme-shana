@@ -17,7 +17,6 @@
   float: left
   background-color: rgb(107,105,214)
   padding: 10px
-  box-sizing: boder-box
   position: relative
   top: -20px
   left: -15px
@@ -230,6 +229,9 @@
 #article-nav
   clearfix()
   position: relative
+  background-color: rgba(255,255,255,0.9)
+  padding: 20px 0px
+  border-radius: 5px
   @media mq-normal
     margin: block-margin 0
     &:before
@@ -242,7 +244,8 @@
 .article-nav-link-wrap
   text-decoration: none
   text-shadow: 0 1px #fff
-  color: color-grey
+  color: color-article-bottom
+  font-weight: bold
   box-sizing: border-box
   margin-top: block-margin
   text-align: center
@@ -268,7 +271,8 @@
 .article-nav-caption
   text-transform: uppercase
   letter-spacing: 2px
-  color: color-border
+  color: color-article-bottom
+  font-weight: bold
   line-height: 1em
   font-weight: bold
   #article-nav-newer &

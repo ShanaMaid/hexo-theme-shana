@@ -1,11 +1,11 @@
 <article  class="animated rubberBand article article-type-" >
-  <div class="layout-title">
-        <span><%= page.title %></span>
-  </div>
   <div class="article-inner">
-    <% if(site.categories.length) { %>
-            <%- list_categories(site.categories) %>
-    <% } %> 
+    <div class="categories-box">
+      <h1>分类</h1>
+      <% if(site.categories.length) { %>
+              <%- list_categories(site.categories) %>
+      <% } %> 
+    </div>
   </div>
 </article>
 

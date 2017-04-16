@@ -7,6 +7,10 @@
       &copy;<%= date(new Date(), 'YYYY') - 1 %> - <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
       由<a href="http://hexo.io/" target="_blank">Hexo</a>强力驱动 | 
       主题-<a href="https://github.com/ShanaMaid/hexo-theme-shana">Shana</a>
+      <% if (theme.CNZZ){ %>
+        |<script src="http://s11.cnzz.com/z_stat.php?id=<%= theme.CNZZ %>&web_id=<%= theme.CNZZ %>" language="JavaScript"></script>
+      <% } %>
     </div>
+    
   </div>
 </footer>

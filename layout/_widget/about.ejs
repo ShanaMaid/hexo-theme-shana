@@ -19,10 +19,10 @@
     </div>
 
     <div class="friend-link">
-      <h2>友情链接</h2>
-      <% for (let item of theme.friend){ %>
-        <a class="hvr-bounce-in" href="<%= item.url %>" target="_blank" title="<%= item.name %>">
-          <%= item.name %>
+      <h2><%= theme.link_title %></h2>
+      <% for (let item in theme.links){ %>
+        <a class="hvr-bounce-in" href="<%= theme.links[item] %>" target="_blank" title="<%= item %>">
+          <%= item %>
         </a>
       <% } %>
     </div>

@@ -20,10 +20,19 @@
 .archive-article
   avoid-column-break()
 
+
+
 .archive-article-inner
   @extend $block
   padding: 10px
   margin-bottom: 15px
+  background-color: rgba(255,255,255,0.7)
+  border-radius: 5px
+  overflow: hidden
+  h1
+    float: right
+    width: calc(100% - 50px)
+
 
 .archive-article-title
   text-decoration: none
@@ -37,13 +46,26 @@
 .archive-article-footer
   margin-top: 1em
 
+
 .archive-article-date
-  color: color-grey
+  color: white
   text-decoration: none
+  box-sizing: border-box
+  padding: 5px 0px
   font-size: 0.85em
-  line-height: 1em
-  margin-bottom: 0.5em
-  display: block
+  line-height: 1.0
+  display: inline-block
+  margin-bottom: -40px
+  width: 40px
+  height: 40px
+  background-color: rgb(107,105,214)
+  text-align: center
+  border-radius: 50%
+  .post-month
+    font-size: 0.8em
+  .post-day
+    font-size: 1.6em
+
 
 #page-nav
   clearfix()

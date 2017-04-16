@@ -12,7 +12,7 @@ page: 第 %d 页
 recent_posts: 最新文章
 newer: 上一篇
 older: 下一篇
-share: Share
+share: 分享
 powered_by: Powered by
 rss_feed: RSS Feed
 category: Category
@@ -22,3 +22,5 @@ Archives: 归档
 Categories: 分类
 Tags: 标签
 About: 关于
+Sponsor: 投喂
+Cv: 简历
