@@ -32,3 +32,7 @@ new WOW().init();
 <% } %>
   <%- partial('bganimation') %>
 <%- js('js/script') %>
+
+<% if (theme.leancloud_visitors.enable){ %>
+<%- partial('_partial/lean-analytics') %>
+<% } %>

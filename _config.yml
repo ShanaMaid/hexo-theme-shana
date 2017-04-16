@@ -80,3 +80,9 @@ CNZZ: 1260644675
 # 评论
 # 网易云跟帖APPkey
 netease: 2217020738364b0fb365e919b0738383
+
+# leadcloud访问次数统计
+leancloud_visitors:
+  enable: true
+  app_id: 4FWJbd67YPU36gbAiyAnl0lF-gzGzoHsz
+  app_key: ofw0GRIkU9iBeevMnzhbTPAf
