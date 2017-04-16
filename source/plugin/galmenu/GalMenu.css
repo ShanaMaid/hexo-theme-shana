@@ -81,23 +81,29 @@ a {
 	-webkit-box-shadow:inset 0px 0px 80px #fff;
 	-moz-box-shadow:inset 0px 0px 80px #fff;
 }
+.ring a {
+	background: url('./img.png') no-repeat;
+	width: 100px;
+	height: 100px;
+}
+
 .ring a:nth-of-type(1) {
-	background-image:url("./1.png");
+	background-position:0 0;
 }
 .ring a:nth-of-type(2) {
-	background-image:url("./2.png");
+	background-position:-100px 0;
 }
 .ring a:nth-of-type(3) {
-	background-image:url("./3.png");
+	background-position:-200px 0;
 }
 .ring a:nth-of-type(4) {
-	background-image:url("./4.png");
+	background-position:-300px 0;
 }
 .ring a:nth-of-type(5) {
-	background-image:url("./5.png");
+	background-position:-400px 0;
 }
 .ring a:nth-of-type(6) {
-	background-image:url("./6.png");
+	background-position:-500px 0;
 }
 .ring a {
 	display:inline-block;
