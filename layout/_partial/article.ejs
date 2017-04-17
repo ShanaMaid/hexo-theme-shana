@@ -8,8 +8,12 @@
     <% if (post.link || post.title){ %>
       <header class="article-header">
         <%- partial('post/title', {class_name: 'article-title'}) %>
-        <%- partial('post/category', {class_name: 'article-title'}) %>
-        <%- partial('post/view') %>
+        <div>
+          <%- partial('post/category', {class_name: 'article-title'}) %>
+          <% if (post.layout === "post"){ %>
+              <%- partial('post/view') %>
+          <% } %>
+        </div>
       </header>
     <% } %>
     <div class="article-entry" itemprop="articleBody">

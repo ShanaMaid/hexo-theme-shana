@@ -3,12 +3,14 @@
   <div class="widget">
     <img class="avatar" src="<%= theme.avatar%>">
     <h2 class="author"><%= config.author %></h2>
-    
+    <h3 class="description"><%= config.description %></h3>
     <div class="count-box">
       <a href="/archives"><div><strong><%= site.posts.length %></strong><br>文章</div></a>
       <a href="/categories"><div><strong><%= site.categories.length %></strong><br>分类</div></a>
       <a href="/tags"><div><strong><%= site.tags.length %></strong><br>标签</div></a>
     </div>
+
+
 
     <div class="social-link">
       <% for (let item of theme.social){ %>
