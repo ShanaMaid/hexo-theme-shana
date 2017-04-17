@@ -1,6 +1,6 @@
 # hexo-theme-shana
-`shana`是以`hexo 3.2`为基础制作的主题，为庆贺`夏娜酱`2017年加冕萌王而诞生的，由于比较多的`animation`,低配手机在移动端访问的时候可能会出现卡顿。你可以访问[我的博客](http://blog.shanamaid.top/)观看效果
-
+`shana`是以`hexo 3.2`为基础制作的主题，为庆贺`夏娜酱`2016年加冕萌王而诞生的，由于比较多的`animation`,低配手机在移动端访问的时候可能会出现卡顿。你可以访问[我的博客](http://blog.shanamaid.top/)观看效果
+![夏娜酱2016年加冕萌王](http://wx1.sinaimg.cn/mw690/dc58f491ly1fepnf3l0thj20dc0i0jsr.jpg)
 ——————————————————————————————————
 
 ## 关于主题
@@ -10,6 +10,14 @@
 
 
 ## 效果图
+![首页](http://wx3.sinaimg.cn/mw690/dc58f491ly1fepnf7f6crj20xf0hmh6y.jpg)
+![归档页](http://wx2.sinaimg.cn/mw690/dc58f491ly1fepnf4xyptj20xj0hjtrb.jpg)
+![标签页](http://wx1.sinaimg.cn/mw690/dc58f491ly1fepnf6fmrxj20si0dmn9s.jpg)
+![代码高亮](http://wx1.sinaimg.cn/mw690/dc58f491ly1fepnf5te0hj20x90hiwu4.jpg)
+![GalMenu菜单](http://wx3.sinaimg.cn/mw690/dc58f491ly1fepnf3082qj20x40h87od.jpg)
+
+
+动态特效请访问[我的博客](http://blog.shanamaid.top/)观看效果，右键调出`GalMenu`
 
 
 ## 使用
@@ -25,7 +33,7 @@
 
 `theme: shana`
 ```
-同时将`themes/shana/_source/`的`tags`和`categories`文件夹拷贝到hexo根目录下的`source`文件下
+同时将`themes/shana/_source/`的`tags`和`categories`文件夹拷贝到hexo根目录下的`source`文件夹下
 
 ### 更新
 ```
