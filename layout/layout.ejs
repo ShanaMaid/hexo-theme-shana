@@ -3,6 +3,7 @@
   <div id="container">
     <div id="wrap">
       <div class="outer">
+        <%- partial('_partial/mobile-header') %>
         <section id="main"><%- body %></section>
         <% if (theme.sidebar && theme.sidebar !== 'bottom'){ %>
           <%- partial('_partial/sidebar', null, {cache: !config.relative_link}) %>
