@@ -126,9 +126,9 @@ avatar: https://avatars0.githubusercontent.com/u/20333903?v=3&s=460
 CNZZ: 
 
 # 评论
-# 网易云跟帖APPkey
-# 
-netease: 
+# 评论
+# 友言uid
+uyan: 
 
 # leadcloud访问次数统计
 # 
@@ -137,6 +137,28 @@ leancloud_visitors:
   app_id: 
   app_key: 
 ```
+
+## 关于三方评论
+由于网易云倒闭，三方评论替换为友言。
+
+
+友言评论不支持https协议，所以挂了小绿锁的博客即使填写了配置中的`uyan`也无效。
+
+不考虑搜狐畅言的原因是因为使用需要填写备案号，github pages是没有备案号的。
+
+如果需要自定义的三方评论的请自行修改`hexo-theme-shana\layout\_partial\article.ejs`中的最后一部分
+
+```
+<% if (!index && post.comments && theme.uyan){ %>
+  <div id="comments" class="comments">
+    <div id="uyan_frame"></div>
+  </div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=<%- theme.uyan %>"></script>
+<% } %>
+```
+
+博主博客挂了小绿锁因此很长一段时间不会支持评论了，任何有关主题的问题直接在该项目下发issue吧！
+
 
 ## 支持与改进
 你可以通过发起`issue`来反映主题的BUG或者提出改进建议以及你的疑问
