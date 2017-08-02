@@ -138,6 +138,12 @@ leancloud_visitors:
   app_key: 
 ```
 
+## 自定义背景图片
+`hexo-theme-shana\source\plugin\bganimation\bg.css`
+
+替换里面的图片url就可以了
+
+
 ## 关于三方评论
 由于网易云倒闭，三方评论替换为友言。
 
