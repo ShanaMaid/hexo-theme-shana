@@ -137,6 +137,10 @@ leancloud_visitors:
   app_id: 
   app_key: 
 ```
+## 自定义代码高亮
+`hexo-theme-shana\source\css_partial\highlight.styl`
+
+![](https://user-images.githubusercontent.com/20333903/28317264-c8a80a28-6bf8-11e7-88f9-f1ef542f5118.png)
 
 ## 自定义背景图片
 `hexo-theme-shana\source\plugin\bganimation\bg.css`
