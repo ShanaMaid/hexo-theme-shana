@@ -137,7 +137,37 @@ leancloud_visitors:
   app_id: 
   app_key: 
 ```
+## 启用数学公式
+
+卸载`hexo-renderer-marked`，替换为`hexo-renderer-markdown-it-plus`
+
+``` bash
+npm un hexo-renderer-marked --save
+npm i hexo-renderer-markdown-it-plus --save
+```
+
+在需要启用数学公式的博客的head添加math: true
+
+编辑站点的配置文件
+
+``` yaml
+# hexo/_config.yml
+markdown_it_plus:
+  highlight: true
+  html: true
+  xhtmlOut: true
+  breaks: true
+  langPrefix:
+  linkify: true
+  typographer:
+  quotes: “”‘’
+  pre_class: highlight
+```
+
+
+
 ## 自定义代码高亮
+
 `hexo-theme-shana\source\css_partial\highlight.styl`
 
 ![](https://user-images.githubusercontent.com/20333903/28317264-c8a80a28-6bf8-11e7-88f9-f1ef542f5118.png)
