@@ -17,7 +17,7 @@
 ![GalMenu菜单](http://wx3.sinaimg.cn/mw690/dc58f491ly1fepnf3082qj20x40h87od.jpg)
 
 
-动态特效请访问[我的博客](http://blog.shanamaid.top/)观看效果，右键调出`GalMenu`
+动态特效请访问[我的博客](https://shanamaid.github.io/)观看效果，右键调出`GalMenu`
 
 
 ## 使用
